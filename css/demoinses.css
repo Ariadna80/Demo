@@ -3,9 +3,15 @@
     padding: auto;
     font-family: sans-serif;
 }
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 body{
-    background-color: #4A55A2;
+    background-color: #000017;
 }
 
 .contenedor {
@@ -16,48 +22,48 @@ body{
 }
 
 .formulario{
-    background-color: #7895CB;
+    background-color: #5531BB;
     text-align: center;
-    border: 5px solid #C5DFF8;
+    border: 5px solid #150241;
     border-radius: 50px;
     width: 450px;
     height: 520px;
 }
 
 .titulo{
-    color: #C5DFF8;
+    color: #C2C7CE;
     font-size: 45px;
     margin: 20px 0px;
 }
 
 label{
-    color: #C5DFF8;
+    color: #C2C7CE;
     font-size: 25px;
     margin: 10px 0px;
 }
 
 .rellenar{
     font-size: 20px;
-    border: 3px solid #C5DFF8;
+    border: 3px solid #C2C7CE;
     border-radius: 10px;
     margin: 10px 0px;
 }
 
 .subir{
-    background-color: #A0BFE0;
-    color: #ffffff;
+    background-color: #C2C7CE;
+    color: #150241;
     font-size: 25px;
-    border: 2px solid #A0BFE0;
+    border: 2px solid #C2C7CE;
     border-radius: 10px;
     margin: 30px 0px;
 }
 
 a{
-    color: #ffffff;
+    color: #ffff;
 }
 
 .preguntar{
-    color: #C5DFF8;
+    color: #C2C7CE;
     font-size: 25px;
 }
 
@@ -79,7 +85,7 @@ a{
 
 /*Pseudo-clases*/
 a:active{
-    color: #070f2b;
+    color: #000017;
 }
 .rellenar:valid{
     border-color: rgb(34, 161, 34);

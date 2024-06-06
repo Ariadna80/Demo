@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Anta";
     scroll-behavior: smooth;
 }
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
 
 .header {
     position: fixed;
@@ -33,6 +38,7 @@
     overflow: hidden;
     border-radius: 50%;
     filter: drop-shadow(0px 0px 11px #c9c9f5);
+    display: flex;
 }
 
 #logo {
@@ -99,6 +105,7 @@
     list-style: none;
     padding: 0.7rem 1.5rem;
     width: 100%;
+    margin-bottom: 0;
 }
 
 .link {
@@ -211,6 +218,14 @@
     max-width: 50rem;
     border-radius: 1rem;
     overflow: hidden;
+    cursor: pointer;
+}
+
+.main__ofert:hover,
+.main__category:hover {
+    box-shadow: 0 8px 32px rgba(38, 45, 139, 0.369);
+    border: 3px solid rgba(244, 247, 247, .743);
+    scale: 1;
 }
 
 .main__category-title {
@@ -267,7 +282,7 @@
 .footer__social-facebook,
 .footer__social-instagram,
 .footer__social-whatsapp {
-    width: 1.777rem;
+    width: 2rem;
     color: #ffffff8a;
 }
 
@@ -428,7 +443,7 @@
     .footer__social-facebook,
     .footer__social-instagram,
     .footer__social-whatsapp {
-        width: 2.373rem;
+        width: 2.5rem;
     }
 
     .footer__copyright,

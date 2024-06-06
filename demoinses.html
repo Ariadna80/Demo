@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./css/demoinses.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="contenedor">
         <div class="formulario">
             <h1 class="titulo">Iniciar Sesión</h1>
-            <form method="post">
+            <form method="post" id="loginForm">
                 <div class="username">
                     <label for="username">Nombre de usuario</label>
                     <br>
-                    <input class="rellenar" type="text" required placeholder="Nombre">
+                    <input class="rellenar" type="text" required placeholder="Nombre" id="username">
                     <span></span>
                 </div>
                 <div class="contraseña">
                     <label for="password">Contraseña</label>
                     <br>
-                    <input class="rellenar" type="password" required placeholder="Contraseña">
+                    <input class="rellenar" type="password" required placeholder="Contraseña" autocomplete="false" id="password">
                     <span></span>
                 </div>
                 <div class="recordar">
@@ -33,5 +36,6 @@
             </form>
         </div>
     </div>
+    <script src="./js/inisio_sesion.js"></script>
 </body>
 </html>
